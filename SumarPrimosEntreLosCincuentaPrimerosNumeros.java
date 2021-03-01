@@ -8,7 +8,7 @@ public class SumaPrimosEntreLosCincuentaPrimerosNumeros {
 		int suma=0;
 		for(int i=1;i<=50;i++) {
 			int numerosDivididos=0;
-			for(int y=2;y<=i;y++) {
+			for(int y=2;numerosDivididos<2 && y<=i;y++) {
 				if (i % y == 0) {
 					numerosDivididos++;
 				}

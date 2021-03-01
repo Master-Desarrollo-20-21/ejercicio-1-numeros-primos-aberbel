@@ -10,7 +10,7 @@ public class SumaPrimerosCincuentaNumerosPrimos {
 		int numerosSumados=0;
 		do {
 			int numerosDivididos=0;
-			for(int y=2;y<=numero;y++) {
+			for(int y=2;numerosDivididos<2 && y<=numero;y++) {
 				if (numero % y == 0) {
 					numerosDivididos++;
 				}
